@@ -13,9 +13,9 @@
 
 
   <h1>Morning Todos</h1>
-  <ul>
+  <ol>
     {#each todoList as todoList  }
       <li><strong>{todoList}</strong></li>
     {/each}
-  </ul>
+  </ol>
 
