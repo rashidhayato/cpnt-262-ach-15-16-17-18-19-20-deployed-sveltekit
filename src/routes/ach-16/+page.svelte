@@ -1,3 +1,21 @@
-<h1>
-  testing 
-</h1> 
+<script>
+  const todoList = [
+    'Get out of bed',
+    'Make coffee',
+    'Read feeds',
+    'Have shower',
+    'Brush teeth',
+    'Get dressed',
+    'Leave for work',
+    'Get breakfast to go'
+  ]
+</script>
+
+
+  <h1>Morning Todos</h1>
+  <ul>
+    {#each todoList as todoList  }
+      <li><strong>{todoList}</strong></li>
+    {/each}
+  </ul>
+
