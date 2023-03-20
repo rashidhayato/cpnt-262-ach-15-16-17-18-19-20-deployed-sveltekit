@@ -9,7 +9,8 @@ export const nodes = [
 	() => import('./nodes/5'),
 	() => import('./nodes/6'),
 	() => import('./nodes/7'),
-	() => import('./nodes/8')
+	() => import('./nodes/8'),
+	() => import('./nodes/9')
 ];
 
 export const server_loads = [];
@@ -19,9 +20,10 @@ export const dictionary = {
 		"/about": [3],
 		"/ach-16": [4],
 		"/ach-17": [5],
-		"/menu": [6],
-		"/service": [7],
-		"/shop": [8]
+		"/ach-18": [6],
+		"/menu": [7],
+		"/service": [8],
+		"/shop": [9]
 	};
 
 export const hooks = {
